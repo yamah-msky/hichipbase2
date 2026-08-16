@@ -14,3 +14,9 @@ refs/
 
 # external tools
 HiC-Pro/
+
+# coding agents
+.agents/
+RTK.md
+AGENTS.md
+
