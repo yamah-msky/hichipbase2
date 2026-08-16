@@ -1,6 +1,6 @@
 [project]
 authors = [{name = "yamah-msky", email = "github2@mbmsky.dev"}]
-dependencies = ["pandas==3.0.3", "matplotlib>=3.11.1,<4", "ipykernel>=7.3.0,<8", "ipython>=9.16.1,<10", "jupyterlab>=4.6.3,<5", "polars>=1.43.2,<2", "seaborn>=0.13.2,<0.14", "arrow>=1.4.0,<2", "ruff>=0.16.3,<0.17", "pydantic>=2.13.4,<3", "typer>=0.27.1,<0.28", "hichip-peaks>=0.1.2,<0.2", "numpy"]
+dependencies = ["pandas==3.0.3", "matplotlib>=3.11.1,<4", "ipykernel>=7.3.0,<8", "ipython>=9.16.1,<10", "jupyterlab>=4.6.3,<5", "polars>=1.43.2,<2", "seaborn>=0.13.2,<0.14", "arrow>=1.4.0,<2", "ruff>=0.16.3,<0.17", "pydantic>=2.13.4,<3", "typer>=0.27.1,<0.28", "hichip-peaks>=0.1.2,<0.2", "numpy", "higlass-manage>=0.8.0,<0.9"]
 name = "hichipbase2"
 requires-python = ">= 3.11"
 version = "0.1.0"
