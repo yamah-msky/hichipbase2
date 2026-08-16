@@ -4,4 +4,4 @@
 
 ## Description
 
-An integrated environment for HiChIP analyses, mainly powered by Python, pixi.
+An integrated environment for HiChIP analyses, only for myself, mainly powered by Python, pixi.
