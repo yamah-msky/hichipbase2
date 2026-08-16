@@ -22,6 +22,8 @@ hichipbase2 = { path = ".", editable = true }
 packages = ["src/hichipbase2"]
 
 [tool.pixi.tasks]
+higlass-start = "mkdir -p \"$PIXI_PROJECT_ROOT/work/results/higlass-data\" \"$PIXI_PROJECT_ROOT/work/results/higlass-tmp\" && higlass-manage start --hg-name default --port 8989 --version latest --data-dir \"$PIXI_PROJECT_ROOT/work/results/higlass-data\" --temp-dir \"$PIXI_PROJECT_ROOT/work/results/higlass-tmp\""
+higlass-stop = "higlass-manage stop default"
 
 [tool.pixi.dependencies]
 python = "==3.11"

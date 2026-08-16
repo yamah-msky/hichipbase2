@@ -1,7 +1,11 @@
 # pixi environments
+.pixi/
 .pixi/*
 !.pixi/config.toml
 __pycache__/
+
+# virtual env
+.venv/
 
 # real data
 work/
@@ -20,3 +24,5 @@ HiC-Pro/
 RTK.md
 AGENTS.md
 
+# coding assistance
+.ruff_cache/
