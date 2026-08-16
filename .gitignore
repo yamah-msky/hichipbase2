@@ -1,0 +1,13 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+__pycache__/
+
+# real data
+work/
+out/
+output/
+raw/
+rawdata/
+data/
+refs/

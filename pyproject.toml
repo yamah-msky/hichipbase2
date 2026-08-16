@@ -1,0 +1,36 @@
+[project]
+authors = [{name = "yamah-msky", email = "github2@mbmsky.dev"}]
+dependencies = ["pandas>=3.0.5,<4", "matplotlib>=3.11.1,<4", "ipykernel>=7.3.0,<8", "ipython>=9.16.1,<10", "jupyterlab>=4.6.3,<5", "polars>=1.43.2,<2", "seaborn>=0.13.2,<0.14", "arrow>=1.4.0,<2", "ruff>=0.16.3,<0.17", "pydantic>=2.13.4,<3", "typer>=0.27.1,<0.28"]
+name = "hichipbase2"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge", "bioconda"]
+platforms = ["linux-64"]
+
+[tool.pixi.pypi-dependencies]
+hichipbase2 = { path = ".", editable = true }
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hichipbase2"]
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+python = "==3.11"
+pip = ">=26.2.1,<27"
+bwa-mem2 = ">=2.3,<3"
+samtools = ">=1.24,<2"
+pairtools = ">=1.1.3,<2"
+bedtools = ">=2.31.1,<3"
+circos = ">=0.69.9,<0.70"
+cooler = ">=0.10.4,<0.11"
+cooltools = ">=0.7.1,<0.8"
+pycirclize = ">=1.10.1,<2"
+biopython = ">=1.88,<2"
+hatchling = ">=1.32.0,<2"
