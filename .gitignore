@@ -15,6 +15,7 @@ raw/
 rawdata/
 data/
 refs/
+reference/
 
 # external tools
 HiC-Pro/
