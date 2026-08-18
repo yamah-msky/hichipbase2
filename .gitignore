@@ -27,3 +27,12 @@ AGENTS.md
 
 # coding assistance
 .ruff_cache/
+
+# real analyses
+config/
+resources/
+data/
+results/
+workflow/
+logs/
+benchmarks/
